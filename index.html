@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h2>To Do List</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task"><button onclick="addTask()">Add Task</button>
+            </div>
+            <div class="row">
+                <input type="text" id="user-box" placeholder="Add your user"><button onclick="addUser()">Add User</button>
+            </div>
+            <div class="row_button">
+               <button onclick="removeTasks()">Remove Tasks</button>
+                <button onclick="moveTasks()">Move Tasks</button>
+                <button onclick="deselectTasks()">Deselect</button>
+            </div>
+        </div>
+        <div class="list-slots">
+            <h2>Task List</h2>
+            <ul id="task-list"></ul>
+
+        </div>
+        <div class="list-slots">
+            <h2>In-Progress</h2>
+            <ul id="in-progress-list"></ul>
+        </div>
+        <div class="list-slots">
+            <h2>Completed</h2>
+            <ul id="completed-list"></ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#1423AF,#541a53);
+    padding: 10px;
+    border: 3px solid #fff;
+}
+.list-slots
+{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    margin: 20px 20px;
+    padding:20px 30px 20px;
+    border-radius:10px;
+    float:left;
+    align-items: center;
+    
+}
+.todo h2
+{
+    color: #002765;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.list-slots h2
+
+{
+    color: #002765;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.row
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #aaaaaa;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.row_button
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+
+
+}
+input
+{
+    flex:1;
+    border:none;
+    outline: none;
+    background:transparent;
+    padding: 10px;
+    font-weight: normal;
+
+}
+button
+{
+    border:none;
+    outline: none;
+    padding: 10px;
+    background:#ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+ul li
+{
+    list-style: none;
+    font-size:17px;
+    padding: 12px 8px 12px 10px;
+    line-height: 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+ul li.checked
+{
+    color:#555;
+    text-decoration: line-through;
+
+}
+ul li span
+{
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color:#555;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+}
+ul li div
+{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+ul li span:hover
+{
+    background: #edeef0;
+    border-radius: 50%;
+}
+.todo
+{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    margin: 20px 20px;
+    padding:20px 30px 20px;
+    border-radius:10px;
+}
+
+
+
+
+
+
+
+
